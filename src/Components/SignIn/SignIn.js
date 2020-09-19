@@ -8,7 +8,7 @@ const SignIn = (props) => {
   return (
     <div className="base-container">
       <h2>CMS Sign In</h2>
-      <form>
+      <div className="form">
         <div className="inputField">
           <input
             type="=text"
@@ -29,7 +29,7 @@ const SignIn = (props) => {
           <p className="errorMsg">{passwordError}</p>
         </div>
         <div className="signInButton">
-          {hasAccount ? (
+          {/* {hasAccount ? (
             <>
               <button onClick={handleLogin}>Sign In</button>
               <p>Don't have an account? <span onClick={() => setHasAccount(!hasAccount)}>Sign Up</span></p>
@@ -39,13 +39,13 @@ const SignIn = (props) => {
                 <button onClick={handleSignUp}>Sign Up</button>
                 <p>Have an account? <span onClick={() => setHasAccount(!hasAccount)}>Sign In</span></p>
               </>
-            )}
+            )} */}
           <button onClick={handleLogin}>Sign In</button>
         </div>
         {/* <div className="signInButton">
                     <button>Sign In With Github</button>
                 </div> */}
-      </form>
+      </div>
     </div>
   );
 }
