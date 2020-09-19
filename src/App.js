@@ -1,12 +1,17 @@
-import React from 'react';
+import React, {Component} from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import * as firebase from 'firebase';
+import SignIn from './Components/Auth/SignIn';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>This site is currently under maintenance... Click <a href="https://ezdev.site" >here</a> to my old site.</h1>
-    </div>
-  );
+class App extends Component{
+  render(){
+    return(
+      <div className="App">
+        <SignIn />
+      </div>
+    )
+  }
 }
 
 export default App;
