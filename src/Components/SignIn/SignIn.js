@@ -6,30 +6,31 @@ const SignIn = (props) => {
     handleSignUp, hasAccount, setHasAccount, emailError, passwordError } = props;
 
   return (
-    <div className="base-container">
-      <h2>CMS Sign In</h2>
-      <div className="form">
-        <div className="inputField">
-          <input
-            type="=text"
-            autoFocus
-            required
-            value={email}
-            onChange={(e) => setEmail(e.target.value)} />
-          <label>Email</label>
-          <p className="errorMsg">{emailError}</p>
-        </div>
-        <div className="inputField">
-          <input
-            type="password"
-            required
-            value={password}
-            onChange={(e) => setPassword(e.target.value)} />
-          <label>Password</label>
-          <p className="errorMsg">{passwordError}</p>
-        </div>
-        <div className="signInButton">
-          {/* {hasAccount ? (
+    <section className="signIn">
+      <div className="base-container">
+        <h2>CMS Sign In</h2>
+        <div className="form">
+          <div className="inputField">
+            <input
+              type="=text"
+              autoFocus
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)} />
+            <label>Email</label>
+            <p className="errorMsg">{emailError}</p>
+          </div>
+          <div className="inputField">
+            <input
+              type="password"
+              required
+              value={password}
+              onChange={(e) => setPassword(e.target.value)} />
+            <label>Password</label>
+            <p className="errorMsg">{passwordError}</p>
+          </div>
+          <div className="signInButton">
+            {/* {hasAccount ? (
             <>
               <button onClick={handleLogin}>Sign In</button>
               <p>Don't have an account? <span onClick={() => setHasAccount(!hasAccount)}>Sign Up</span></p>
@@ -40,13 +41,14 @@ const SignIn = (props) => {
                 <p>Have an account? <span onClick={() => setHasAccount(!hasAccount)}>Sign In</span></p>
               </>
             )} */}
-          <button onClick={handleLogin}>Sign In</button>
-        </div>
-        {/* <div className="signInButton">
+            <button onClick={handleLogin}>Sign In</button>
+          </div>
+          {/* <div className="signInButton">
                     <button>Sign In With Github</button>
                 </div> */}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 

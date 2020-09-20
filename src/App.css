@@ -1,0 +1,19 @@
+body {
+  margin: 0px;
+  font-family: "Tw Cen MT";
+}
+
+@font-face {
+  font-family: "Tw Cen MT";
+  src: url("//db.onlinewebfonts.com/t/9b62dc86f936227b3f7b367bd0b6c05e.eot");
+  src: url("//db.onlinewebfonts.com/t/9b62dc86f936227b3f7b367bd0b6c05e.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/9b62dc86f936227b3f7b367bd0b6c05e.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/9b62dc86f936227b3f7b367bd0b6c05e.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/9b62dc86f936227b3f7b367bd0b6c05e.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/9b62dc86f936227b3f7b367bd0b6c05e.svg#Tw Cen MT")
+      format("svg");
+}

@@ -1,12 +1,9 @@
-head, body {
-  min-height: 100vh;
-  margin: 0%;
-  padding: 0%;
+.signIn {
+  height: 100vh;
   background-image: url('../../img/login_back.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .base-container {
@@ -34,7 +31,6 @@ head, body {
 }
 
 .base-container p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 9px;
   color: red;
 }
@@ -76,7 +72,6 @@ head, body {
 }
 
 .base-container .signInButton button {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: block;
   background: transparent;
   border: none;
