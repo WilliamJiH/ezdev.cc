@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import fire from './Fire';
-import SignIn from './SignIn';
-import Dashboard from '../CMS/Dashboard';
+import fire from './Fire.jsx';
+import SignIn from './SignIn.jsx';
+import Dashboard from '../CMS/Dashboard.jsx';
 
 const Auth = () => {
   const [user, setUser] = useState('');
