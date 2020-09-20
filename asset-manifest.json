@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my-website-v2/static/css/main.1e21362e.chunk.css",
-    "main.js": "/my-website-v2/static/js/main.ad779631.chunk.js",
-    "main.js.map": "/my-website-v2/static/js/main.ad779631.chunk.js.map",
-    "runtime-main.js": "/my-website-v2/static/js/runtime-main.0c986760.js",
-    "runtime-main.js.map": "/my-website-v2/static/js/runtime-main.0c986760.js.map",
-    "static/js/2.a0f3b2cf.chunk.js": "/my-website-v2/static/js/2.a0f3b2cf.chunk.js",
-    "static/js/2.a0f3b2cf.chunk.js.map": "/my-website-v2/static/js/2.a0f3b2cf.chunk.js.map",
-    "index.html": "/my-website-v2/index.html",
-    "precache-manifest.8740bfe414649d703e05e1ac5b41fe89.js": "/my-website-v2/precache-manifest.8740bfe414649d703e05e1ac5b41fe89.js",
-    "service-worker.js": "/my-website-v2/service-worker.js",
-    "static/css/main.1e21362e.chunk.css.map": "/my-website-v2/static/css/main.1e21362e.chunk.css.map",
-    "static/js/2.a0f3b2cf.chunk.js.LICENSE.txt": "/my-website-v2/static/js/2.a0f3b2cf.chunk.js.LICENSE.txt",
-    "static/media/backgroundVideo.mp4": "/my-website-v2/static/media/backgroundVideo.21f18d71.mp4",
-    "static/media/SignIn.css": "/my-website-v2/static/media/login_back.74689cf4.jpg"
+    "main.css": "/static/css/main.ad587ebb.chunk.css",
+    "main.js": "/static/js/main.ad779631.chunk.js",
+    "main.js.map": "/static/js/main.ad779631.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
+    "static/js/2.95ec1bc1.chunk.js": "/static/js/2.95ec1bc1.chunk.js",
+    "static/js/2.95ec1bc1.chunk.js.map": "/static/js/2.95ec1bc1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9d720497b6b2f0fbdccb28c858d4df8e.js": "/precache-manifest.9d720497b6b2f0fbdccb28c858d4df8e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ad587ebb.chunk.css.map": "/static/css/main.ad587ebb.chunk.css.map",
+    "static/js/2.95ec1bc1.chunk.js.LICENSE.txt": "/static/js/2.95ec1bc1.chunk.js.LICENSE.txt",
+    "static/media/backgroundVideo.mp4": "/static/media/backgroundVideo.21f18d71.mp4",
+    "static/media/SignIn.css": "/static/media/login_back.74689cf4.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0c986760.js",
-    "static/js/2.a0f3b2cf.chunk.js",
-    "static/css/main.1e21362e.chunk.css",
+    "static/js/runtime-main.ce89729d.js",
+    "static/js/2.95ec1bc1.chunk.js",
+    "static/css/main.ad587ebb.chunk.css",
     "static/js/main.ad779631.chunk.js"
   ]
 }
